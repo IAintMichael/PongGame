@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129998303}
   - component: {fileID: 129998302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Paddle (1)
   m_TagString: Paddle
   m_Icon: {fileID: 0}
@@ -239,18 +239,18 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161638127}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!114 &161638131
 MonoBehaviour:
@@ -265,6 +265,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  radius: 0.5
+  notBall:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1172431387}
   - component: {fileID: 1172431388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1276722006}
   - component: {fileID: 1276722005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Paddle
   m_TagString: Paddle
   m_Icon: {fileID: 0}
@@ -579,7 +583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1351620732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enviorment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +617,7 @@ GameObject:
   - component: {fileID: 1488168141}
   - component: {fileID: 1488168143}
   - component: {fileID: 1488168142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +726,7 @@ GameObject:
   - component: {fileID: 1867585472}
   - component: {fileID: 1867585474}
   - component: {fileID: 1867585473}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2071000044}
   - component: {fileID: 2071000045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
